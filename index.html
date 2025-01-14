@@ -28,6 +28,52 @@
 						Fill the form below to enroll your child in the kindergarten Les
 						bambins joyeux.
 					</p>
+
+					<form action="" method="post" enctype="multipart/form-data">
+						<fieldset class="child-info">
+							<legend>Your child's info</legend>
+							<div class="input-wrapper">
+								<label for="fullname">Full name</label>
+								<input
+									id="fullname"
+									name="fullname"
+									type="text"
+									placeholder="What is their name?"
+								/>
+							</div>
+							<div class="input-wrapper">
+								<label for="birth">Date of birth</label>
+								<input id="birth" name="birth" type="date" />
+							</div>
+
+							<div class="select-wrapper">
+								<label for="gender"> </label>
+								<select id="gender" name="gender">
+									<option value="female">Female</option>
+									<option value="male">Male</option>
+									<option value="na">N/A</option>
+								</select>
+							</div>
+
+							<div class="textarea-wrapper">
+								<label for="medical-info"></label>
+								<textarea
+									id="medical-info"
+									name="medical-info"
+									rows="30"
+									cols="10"
+									placeholder="Does the child have any medical condition that our school should be aware of? (If they do, please specify here.)"
+								></textarea>
+							</div>
+
+							<div class="droparea-wrapper">
+								<input id="birth-file" name="birth-file" type="file" />
+								<img src="assets/icons/cloud-upload.svg" alt="upload icon" />
+								<p>Click here to</p>
+								select files
+							</div>
+						</fieldset>
+					</form>
 				</div>
 			</main>
 
