@@ -22,7 +22,7 @@ button {
 
 		&:hover,
 		&:focus {
-			background-color: var(--brandcolor-dark);
+			color: var(--brandcolor-dark);
 			outline: 0.25rem solid var(--surface-secondary);
 		}
 	}
